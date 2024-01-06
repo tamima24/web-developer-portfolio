@@ -3,9 +3,11 @@ body {
     font-family: 'Dancing Script', cursive;
     font-family: 'Open Sans', sans-serif;
 }
+
 .text-primary {
     color: #FD6E0A;
 }
+
 .btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
@@ -15,6 +17,7 @@ body {
     font-style: normal;
     padding: 15px 35px;
 }
+
 /*nav related style*/
 nav {
     display: flex;
@@ -22,25 +25,30 @@ nav {
     align-items: center;
     margin: 0px 200px;
 }
+
 .nav-tittle {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
 }
-nav > ul {
+
+nav>ul {
     display: flex;
     align-items: center;
 }
+
 nav li {
     list-style: none;
     margin-right: 50px;
-    
-}
-nav a{
-    text-decoration: none;
-    color:#474747;
 
 }
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+
+}
+
 /*header section */
 .header {
     background: #FFF8F3;
@@ -48,6 +56,7 @@ nav a{
     background-repeat: no-repeat;
     background-position: bottom right;
 }
+
 .banner {
     padding: 30px 30px 0px 150px;
     display: flex;
@@ -57,6 +66,7 @@ nav a{
     font-style: normal;
     font-weight: 600;
 }
+
 .p-class {
     color: #757575;
     font-family: Open Sans;
@@ -67,14 +77,63 @@ nav a{
     line-height: 30px;
     width: 585px;
 }
+
 .banner .profile-pic {
     width: 500px;
 }
+
 .banner-greeting {
     font-size: 45px;
     color: #474747;
 }
+
 .banner-tittle {
     font-size: 85px;
     font-weight: 700;
+}
+
+.about {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    background: #FFF8F3;
+    width: 1140px;
+    height: 550px;
+    margin: 130px 0px;
+    padding: 130px;
+}
+
+.section-tittle {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+/*main section styles*/
+main {
+    max-height: 1140;
+}
+
+.info-tittle {
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.info-description {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+
+
+}
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
 }
