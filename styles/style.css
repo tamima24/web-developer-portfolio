@@ -202,7 +202,35 @@ main {
     gap: 50px;
     margin-left: 180px;
 }
+
 .download-cv {
     text-align: center;
     margin-top: 50px;
 }
+
+.footer-container {
+    display: flex;
+    margin-left: 180px;
+    gap: 50px;
+}
+
+.footer-item-tittle {
+    color: #181818;
+    
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.footer-item-description {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    width: 562px;
+    margin-bottom: 30px;
+}
+.footer-icon {
+    align-items: center;
+    justify-content: space-between;
+}   
