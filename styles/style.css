@@ -145,7 +145,24 @@ main {
     font-size: 18px;
     font-weight: 400;
     width: 909px;
-    margin:auto
-    
+    margin: auto
+}
 
+.img-tittle {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.img-description {
+    color: #757575;
+    font-size: 16px font-weight: 400;
+    width: 201px;
+
+}
+.skill-container {
+    display: flex;
+    padding: 90px;
+    justify-content: space-around;
+    
 }
